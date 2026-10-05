@@ -1,0 +1,17 @@
+{
+  "id": "calm",
+  "key": "D",
+  "scale": "major",
+  "bpm": 88,
+  "loopBars": 4,
+  "loopSeconds": 10.909090909090908,
+  "lufsExplore": -16,
+  "gainDb": 2,
+  "stems": [
+    "base",
+    "rhythm",
+    "melody",
+    "intensity"
+  ],
+  "renderedAt": "2026-10-02T18:27:06.418Z"
+}

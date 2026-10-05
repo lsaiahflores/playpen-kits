@@ -1,0 +1,3060 @@
+{
+ "version": 1,
+ "note": "Bundled core set — Kenney CC0 subsets; each pack folder keeps its own License.txt.",
+ "entries": [
+  {
+   "id": "core/nature-kit/cactus_short",
+   "file": "nature-kit/cactus_short.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "cactus",
+    "short"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/cactus_tall",
+   "file": "nature-kit/cactus_tall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "cactus",
+    "tall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/fence_simple",
+   "file": "nature-kit/fence_simple.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "fence",
+    "simple"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/flower_purpleA",
+   "file": "nature-kit/flower_purpleA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "flower",
+    "purple",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/flower_redA",
+   "file": "nature-kit/flower_redA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "flower",
+    "red",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/flower_yellowA",
+   "file": "nature-kit/flower_yellowA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "flower",
+    "yellow",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/grass_large",
+   "file": "nature-kit/grass_large.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "grass",
+    "large"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/log",
+   "file": "nature-kit/log.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "log"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/mushroom_red",
+   "file": "nature-kit/mushroom_red.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "mushroom",
+    "red"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/mushroom_tan",
+   "file": "nature-kit/mushroom_tan.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "mushroom",
+    "tan"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/plant_bush",
+   "file": "nature-kit/plant_bush.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "plant",
+    "bush"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/plant_bushLarge",
+   "file": "nature-kit/plant_bushLarge.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "plant",
+    "bush",
+    "large"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/plant_bushSmall",
+   "file": "nature-kit/plant_bushSmall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "plant",
+    "bush",
+    "small"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/rock_largeA",
+   "file": "nature-kit/rock_largeA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "rock",
+    "large",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/rock_largeC",
+   "file": "nature-kit/rock_largeC.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "rock",
+    "large",
+    "c"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/rock_smallA",
+   "file": "nature-kit/rock_smallA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "rock",
+    "small",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/rock_smallC",
+   "file": "nature-kit/rock_smallC.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "rock",
+    "small",
+    "c"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/rock_tallA",
+   "file": "nature-kit/rock_tallA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "rock",
+    "tall",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/rock_tallC",
+   "file": "nature-kit/rock_tallC.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "rock",
+    "tall",
+    "c"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/sign",
+   "file": "nature-kit/sign.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "sign"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/stump_round",
+   "file": "nature-kit/stump_round.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "stump",
+    "round"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_blocks",
+   "file": "nature-kit/tree_blocks.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "blocks"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_blocks_dark",
+   "file": "nature-kit/tree_blocks_dark.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "blocks",
+    "dark"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_blocks_fall",
+   "file": "nature-kit/tree_blocks_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "blocks",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_cone",
+   "file": "nature-kit/tree_cone.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "cone"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_cone_dark",
+   "file": "nature-kit/tree_cone_dark.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "cone",
+    "dark"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_cone_fall",
+   "file": "nature-kit/tree_cone_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "cone",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_default",
+   "file": "nature-kit/tree_default.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "default"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_default_dark",
+   "file": "nature-kit/tree_default_dark.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "default",
+    "dark"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_default_fall",
+   "file": "nature-kit/tree_default_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "default",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_detailed",
+   "file": "nature-kit/tree_detailed.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "detailed"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_detailed_dark",
+   "file": "nature-kit/tree_detailed_dark.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "detailed",
+    "dark"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_detailed_fall",
+   "file": "nature-kit/tree_detailed_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "detailed",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_fat",
+   "file": "nature-kit/tree_fat.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "fat"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_fat_darkh",
+   "file": "nature-kit/tree_fat_darkh.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "fat",
+    "darkh"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_fat_fall",
+   "file": "nature-kit/tree_fat_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "fat",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_oak",
+   "file": "nature-kit/tree_oak.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "oak"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_oak_dark",
+   "file": "nature-kit/tree_oak_dark.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "oak",
+    "dark"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_oak_fall",
+   "file": "nature-kit/tree_oak_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "oak",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_palm",
+   "file": "nature-kit/tree_palm.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "palm"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_palmBend",
+   "file": "nature-kit/tree_palmBend.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "palm",
+    "bend"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_palmDetailedShort",
+   "file": "nature-kit/tree_palmDetailedShort.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "palm",
+    "detailed",
+    "short"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_palmDetailedTall",
+   "file": "nature-kit/tree_palmDetailedTall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "palm",
+    "detailed",
+    "tall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_palmShort",
+   "file": "nature-kit/tree_palmShort.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "palm",
+    "short"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_palmTall",
+   "file": "nature-kit/tree_palmTall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "palm",
+    "tall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineDefaultA",
+   "file": "nature-kit/tree_pineDefaultA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "default",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineDefaultB",
+   "file": "nature-kit/tree_pineDefaultB.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "default",
+    "b"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineGroundA",
+   "file": "nature-kit/tree_pineGroundA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "ground",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineGroundB",
+   "file": "nature-kit/tree_pineGroundB.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "ground",
+    "b"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineRoundA",
+   "file": "nature-kit/tree_pineRoundA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "round",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineRoundB",
+   "file": "nature-kit/tree_pineRoundB.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "round",
+    "b"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineRoundC",
+   "file": "nature-kit/tree_pineRoundC.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "round",
+    "c"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineRoundD",
+   "file": "nature-kit/tree_pineRoundD.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "round",
+    "d"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineRoundE",
+   "file": "nature-kit/tree_pineRoundE.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "round",
+    "e"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineRoundF",
+   "file": "nature-kit/tree_pineRoundF.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "round",
+    "f"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineSmallA",
+   "file": "nature-kit/tree_pineSmallA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "small",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineSmallB",
+   "file": "nature-kit/tree_pineSmallB.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "small",
+    "b"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineSmallC",
+   "file": "nature-kit/tree_pineSmallC.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "small",
+    "c"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineSmallD",
+   "file": "nature-kit/tree_pineSmallD.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "small",
+    "d"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineTallA",
+   "file": "nature-kit/tree_pineTallA.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "tall",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineTallA_detailed",
+   "file": "nature-kit/tree_pineTallA_detailed.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "tall",
+    "a",
+    "detailed"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineTallB",
+   "file": "nature-kit/tree_pineTallB.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "tall",
+    "b"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineTallB_detailed",
+   "file": "nature-kit/tree_pineTallB_detailed.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "tall",
+    "b",
+    "detailed"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineTallC",
+   "file": "nature-kit/tree_pineTallC.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "tall",
+    "c"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineTallC_detailed",
+   "file": "nature-kit/tree_pineTallC_detailed.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "tall",
+    "c",
+    "detailed"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineTallD",
+   "file": "nature-kit/tree_pineTallD.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "tall",
+    "d"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_pineTallD_detailed",
+   "file": "nature-kit/tree_pineTallD_detailed.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "pine",
+    "tall",
+    "d",
+    "detailed"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_simple",
+   "file": "nature-kit/tree_simple.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "simple"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_simple_dark",
+   "file": "nature-kit/tree_simple_dark.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "simple",
+    "dark"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_simple_fall",
+   "file": "nature-kit/tree_simple_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "simple",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_small",
+   "file": "nature-kit/tree_small.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "small"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_small_dark",
+   "file": "nature-kit/tree_small_dark.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "small",
+    "dark"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_small_fall",
+   "file": "nature-kit/tree_small_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "small",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_thin",
+   "file": "nature-kit/tree_thin.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "thin"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_thin_dark",
+   "file": "nature-kit/tree_thin_dark.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "thin",
+    "dark"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/nature-kit/tree_thin_fall",
+   "file": "nature-kit/tree_thin_fall.glb",
+   "source": "kenney",
+   "pack": "nature-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "nature",
+    "outdoor",
+    "tree",
+    "thin",
+    "fall"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-a",
+   "file": "city-kit-commercial/building-a.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-b",
+   "file": "city-kit-commercial/building-b.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "b"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-c",
+   "file": "city-kit-commercial/building-c.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "c"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-d",
+   "file": "city-kit-commercial/building-d.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "d"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-e",
+   "file": "city-kit-commercial/building-e.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "e"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-f",
+   "file": "city-kit-commercial/building-f.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "f"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-g",
+   "file": "city-kit-commercial/building-g.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "g"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-h",
+   "file": "city-kit-commercial/building-h.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "h"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-skyscraper-a",
+   "file": "city-kit-commercial/building-skyscraper-a.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "skyscraper",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-skyscraper-b",
+   "file": "city-kit-commercial/building-skyscraper-b.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "skyscraper",
+    "b"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/building-skyscraper-c",
+   "file": "city-kit-commercial/building-skyscraper-c.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "skyscraper",
+    "c"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/detail-awning",
+   "file": "city-kit-commercial/detail-awning.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "detail",
+    "awning"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/city-kit-commercial/detail-parasol-a",
+   "file": "city-kit-commercial/detail-parasol-a.glb",
+   "source": "kenney",
+   "pack": "city-kit-commercial",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "city",
+    "urban",
+    "building",
+    "downtown",
+    "detail",
+    "parasol",
+    "a"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/delivery",
+   "file": "car-kit/delivery.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "delivery"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/hatchback-sports",
+   "file": "car-kit/hatchback-sports.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "hatchback",
+    "sports"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/police",
+   "file": "car-kit/police.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "police"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/race",
+   "file": "car-kit/race.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "race"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/sedan",
+   "file": "car-kit/sedan.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "sedan"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/suv",
+   "file": "car-kit/suv.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "suv"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/taxi",
+   "file": "car-kit/taxi.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "taxi"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/truck",
+   "file": "car-kit/truck.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "truck"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/car-kit/van",
+   "file": "car-kit/van.glb",
+   "source": "kenney",
+   "pack": "car-kit",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "car",
+    "vehicle",
+    "traffic",
+    "van"
+   ],
+   "scale": "1 unit = 1 m",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_a",
+   "file": "input-prompts/xbox_series/xbox_button_a.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "a"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_a_outline",
+   "file": "input-prompts/xbox_series/xbox_button_a_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "a",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_b",
+   "file": "input-prompts/xbox_series/xbox_button_b.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "b"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_b_outline",
+   "file": "input-prompts/xbox_series/xbox_button_b_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "b",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_color_a",
+   "file": "input-prompts/xbox_series/xbox_button_color_a.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "color",
+    "a"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_color_a_outline",
+   "file": "input-prompts/xbox_series/xbox_button_color_a_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "color",
+    "a",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_color_b",
+   "file": "input-prompts/xbox_series/xbox_button_color_b.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "color",
+    "b"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_color_b_outline",
+   "file": "input-prompts/xbox_series/xbox_button_color_b_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "color",
+    "b",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_color_x",
+   "file": "input-prompts/xbox_series/xbox_button_color_x.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "color",
+    "x"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_color_x_outline",
+   "file": "input-prompts/xbox_series/xbox_button_color_x_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "color",
+    "x",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_color_y",
+   "file": "input-prompts/xbox_series/xbox_button_color_y.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "color",
+    "y"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_color_y_outline",
+   "file": "input-prompts/xbox_series/xbox_button_color_y_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "color",
+    "y",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_menu",
+   "file": "input-prompts/xbox_series/xbox_button_menu.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "menu"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_menu_outline",
+   "file": "input-prompts/xbox_series/xbox_button_menu_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "menu",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_start",
+   "file": "input-prompts/xbox_series/xbox_button_start.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "start"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_start_outline",
+   "file": "input-prompts/xbox_series/xbox_button_start_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "start",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_view",
+   "file": "input-prompts/xbox_series/xbox_button_view.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "view"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_view_outline",
+   "file": "input-prompts/xbox_series/xbox_button_view_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "view",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_x",
+   "file": "input-prompts/xbox_series/xbox_button_x.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "x"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_x_outline",
+   "file": "input-prompts/xbox_series/xbox_button_x_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "x",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_y",
+   "file": "input-prompts/xbox_series/xbox_button_y.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "y"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_button_y_outline",
+   "file": "input-prompts/xbox_series/xbox_button_y_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "button",
+    "y",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_dpad",
+   "file": "input-prompts/xbox_series/xbox_dpad.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "dpad"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_lb",
+   "file": "input-prompts/xbox_series/xbox_lb.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "lb"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_lb_outline",
+   "file": "input-prompts/xbox_series/xbox_lb_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "lb",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_lt",
+   "file": "input-prompts/xbox_series/xbox_lt.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "lt"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_lt_outline",
+   "file": "input-prompts/xbox_series/xbox_lt_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "lt",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_rb",
+   "file": "input-prompts/xbox_series/xbox_rb.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "rb"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_rb_outline",
+   "file": "input-prompts/xbox_series/xbox_rb_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "rb",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_rt",
+   "file": "input-prompts/xbox_series/xbox_rt.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "rt"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_rt_outline",
+   "file": "input-prompts/xbox_series/xbox_rt_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "rt",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_stick_l",
+   "file": "input-prompts/xbox_series/xbox_stick_l.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "stick",
+    "l"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/xbox_series/xbox_stick_r",
+   "file": "input-prompts/xbox_series/xbox_stick_r.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "xbox_series",
+    "xbox",
+    "stick",
+    "r"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_a",
+   "file": "input-prompts/keyboard_mouse/keyboard_a.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "a"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_arrow_down",
+   "file": "input-prompts/keyboard_mouse/keyboard_arrow_down.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "arrow",
+    "down"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_arrow_down_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_arrow_down_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "arrow",
+    "down",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_arrow_left",
+   "file": "input-prompts/keyboard_mouse/keyboard_arrow_left.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "arrow",
+    "left"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_arrow_left_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_arrow_left_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "arrow",
+    "left",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_arrow_right",
+   "file": "input-prompts/keyboard_mouse/keyboard_arrow_right.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "arrow",
+    "right"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_arrow_right_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_arrow_right_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "arrow",
+    "right",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_arrow_up",
+   "file": "input-prompts/keyboard_mouse/keyboard_arrow_up.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "arrow",
+    "up"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_arrow_up_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_arrow_up_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "arrow",
+    "up",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_a_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_a_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "a",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_d",
+   "file": "input-prompts/keyboard_mouse/keyboard_d.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "d"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_d_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_d_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "d",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_e",
+   "file": "input-prompts/keyboard_mouse/keyboard_e.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "e"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_enter",
+   "file": "input-prompts/keyboard_mouse/keyboard_enter.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "enter"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_enter_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_enter_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "enter",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_escape",
+   "file": "input-prompts/keyboard_mouse/keyboard_escape.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "escape"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_escape_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_escape_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "escape",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_e_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_e_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "e",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_f",
+   "file": "input-prompts/keyboard_mouse/keyboard_f.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "f"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_f_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_f_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "f",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_j",
+   "file": "input-prompts/keyboard_mouse/keyboard_j.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "j"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_j_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_j_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "j",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_k",
+   "file": "input-prompts/keyboard_mouse/keyboard_k.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "k"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_k_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_k_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "k",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_l",
+   "file": "input-prompts/keyboard_mouse/keyboard_l.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "l"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_l_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_l_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "l",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_q",
+   "file": "input-prompts/keyboard_mouse/keyboard_q.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "q"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_q_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_q_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "q",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_s",
+   "file": "input-prompts/keyboard_mouse/keyboard_s.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "s"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_shift",
+   "file": "input-prompts/keyboard_mouse/keyboard_shift.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "shift"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_shift_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_shift_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "shift",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_space",
+   "file": "input-prompts/keyboard_mouse/keyboard_space.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "space"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_space_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_space_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "space",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_s_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_s_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "s",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_w",
+   "file": "input-prompts/keyboard_mouse/keyboard_w.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "w"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  },
+  {
+   "id": "core/input-prompts/keyboard_mouse/keyboard_w_outline",
+   "file": "input-prompts/keyboard_mouse/keyboard_w_outline.png",
+   "source": "kenney",
+   "pack": "input-prompts",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "prompt",
+    "button",
+    "glyph",
+    "input",
+    "keyboard_mouse",
+    "keyboard",
+    "w",
+    "outline"
+   ],
+   "scale": "2D sprite",
+   "license": "CC0-1.0"
+  }
+ ]
+}

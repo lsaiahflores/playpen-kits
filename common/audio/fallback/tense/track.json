@@ -1,0 +1,17 @@
+{
+  "id": "tense",
+  "key": "A",
+  "scale": "minor",
+  "bpm": 96,
+  "loopBars": 4,
+  "loopSeconds": 10,
+  "lufsExplore": -16,
+  "gainDb": 0.2,
+  "stems": [
+    "base",
+    "rhythm",
+    "melody",
+    "intensity"
+  ],
+  "renderedAt": "2026-10-02T18:27:17.583Z"
+}

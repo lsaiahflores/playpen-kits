@@ -1,0 +1,28 @@
+{
+  "id": "stylized_fantasy",
+  "name": "Stylized Fantasy",
+  "blurb": "Storybook color: rich sky, glowing crystals and banners, fireflies and floating motes, soft rim light.",
+  "palette": {
+    "primary": "#f2b84b", "secondary": "#8b6fd6", "accent": "#ff6f91",
+    "street": "#7d6f8f", "sidewalk": "#bdae98",
+    "ground": "#6e8f4e", "foliage": "#4fae5c", "foliage_dark": "#2b7a52", "water": "#4aa3df", "water_deep": "#244a9a",
+    "sky_top": "#5b6fe0", "sky_horizon": "#f3c9d8", "ground_horizon": "#e7d6f0",
+    "sun": "#ffe6b8", "fog": "#d9c9ee", "shadow": "#4a3f80", "building": "#cdb99a", "roof": "#7b4fa8",
+    "ui_bg": "#241a45", "ui_fg": "#fff7e8"
+  },
+  "sun": { "pitch": -38, "yaw": -40, "energy": 1.2, "shadow": true, "color": "#ffe6b8" },
+  "sky": { "clouds": 0.6, "cloud_speed": 0.01, "sun_glow": 0.9, "horizon_haze": 0.75 },
+  "fog": { "density": 0.007, "sun_scatter": 0.35 },
+  "tonemap": { "mode": "filmic", "exposure": 1.0, "white": 6.0 },
+  "grade": { "brightness": 1.0, "contrast": 1.1, "saturation": 1.25 },
+  "glow": { "enabled": true, "intensity": 0.8, "bloom": 0.16, "threshold": 0.9 },
+  "materials": { "style": "toon", "steps": 4, "rim": 0.4, "outline": 0.0 },
+  "ui": { "accent": "#f2b84b", "corner": 16 },
+  "ambient": {
+    "wind": 0.5, "clouds": true, "motes": 0.9, "leaves": 0.5, "water": true,
+    "birds": "songbirds", "bird_count": 6, "butterflies": 8, "fireflies": 10, "pigeons": 0, "critters": 4,
+    "glow_signs": 0.6, "time_of_day": "golden"
+  },
+  "audio": { "beds": ["wind", "forest"], "mood": "adventurous", "key": "E", "scale": "lydian", "bpm": 100, "instruments": ["flute", "harp", "strings", "horn", "soft_drums"] },
+  "shaders": ["toon", "rim", "water", "wind_sway", "glow_pulse", "triplanar", "dissolve", "caustics"]
+}

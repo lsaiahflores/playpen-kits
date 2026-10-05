@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My App</title>
+<link rel="stylesheet" href="styles/tokens.css">
+<link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="nav" id="nav" aria-label="Main"></aside>
+  <main class="main">
+    <header class="top">
+      <h1 id="title">Overview</h1>
+      <div class="top-actions">
+        <button class="btn ghost" id="theme" aria-label="Toggle light / dark"></button>
+        <button class="btn primary" id="new">New item</button>
+      </div>
+    </header>
+    <section id="view" class="view" aria-live="polite"></section>
+  </main>
+</div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<script src="scripts/icons.js"></script>
+<script src="scripts/data.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>

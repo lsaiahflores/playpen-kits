@@ -1,0 +1,17 @@
+{
+  "id": "mysterious",
+  "key": "A",
+  "scale": "dorian",
+  "bpm": 84,
+  "loopBars": 4,
+  "loopSeconds": 11.428571428571429,
+  "lufsExplore": -16.9,
+  "gainDb": 4,
+  "stems": [
+    "base",
+    "rhythm",
+    "melody",
+    "intensity"
+  ],
+  "renderedAt": "2026-10-02T18:27:23.489Z"
+}

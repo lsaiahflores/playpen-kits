@@ -1,0 +1,26 @@
+/* DESIGN TOKENS — change these, not individual component colors.
+   Light + dark, a type scale, spacing, radii, elevation and motion. */
+:root {
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --fs-xs: 12px; --fs-sm: 13px; --fs-md: 15px; --fs-lg: 18px; --fs-xl: 24px; --fs-2xl: 32px;
+  --fw-regular: 400; --fw-medium: 550; --fw-bold: 700;
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px; --sp-6: 32px; --sp-7: 48px;
+  --r-sm: 8px; --r-md: 12px; --r-lg: 18px; --r-pill: 999px;
+
+  --bg: #f6f7fb; --surface: #ffffff; --surface-2: #f0f2f8; --border: #e3e6ef;
+  --text: #161a2b; --text-2: #5b6178; --text-3: #8b91a7;
+  --accent: #5b6cff; --accent-2: #8a5bff; --accent-text: #ffffff; --accent-soft: #e9ebff;
+  --good: #1f9d6b; --warn: #d98a00; --bad: #d64545;
+  --shadow-1: 0 1px 2px rgba(22,26,43,.06), 0 1px 1px rgba(22,26,43,.04);
+  --shadow-2: 0 8px 24px rgba(22,26,43,.10), 0 2px 6px rgba(22,26,43,.06);
+
+  --ease: cubic-bezier(.2,.8,.2,1); --t-fast: 120ms; --t-med: 220ms; --t-slow: 360ms;
+}
+[data-theme="dark"] {
+  --bg: #0e1020; --surface: #161a2e; --surface-2: #1d2238; --border: #2a3050;
+  --text: #eef0ff; --text-2: #a4aac6; --text-3: #6f7694;
+  --accent: #7b88ff; --accent-2: #a98bff; --accent-text: #0e1020; --accent-soft: #232a55;
+  --good: #44d19b; --warn: #f0b23a; --bad: #ff7b7b;
+  --shadow-1: 0 1px 2px rgba(0,0,0,.4); --shadow-2: 0 10px 30px rgba(0,0,0,.45);
+}
+@media (prefers-reduced-motion: reduce) { :root { --t-fast: 0ms; --t-med: 0ms; --t-slow: 0ms; } }

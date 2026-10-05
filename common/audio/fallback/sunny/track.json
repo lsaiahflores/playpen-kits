@@ -1,0 +1,17 @@
+{
+  "id": "sunny",
+  "key": "C",
+  "scale": "major",
+  "bpm": 112,
+  "loopBars": 4,
+  "loopSeconds": 8.571428571428571,
+  "lufsExplore": -16.6,
+  "gainDb": 3.4,
+  "stems": [
+    "base",
+    "rhythm",
+    "melody",
+    "intensity"
+  ],
+  "renderedAt": "2026-10-02T18:26:56.339Z"
+}

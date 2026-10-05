@@ -1,0 +1,17 @@
+{
+  "id": "racing",
+  "key": "E",
+  "scale": "minor",
+  "bpm": 140,
+  "loopBars": 4,
+  "loopSeconds": 6.857142857142857,
+  "lufsExplore": -16,
+  "gainDb": -0.4,
+  "stems": [
+    "base",
+    "rhythm",
+    "melody",
+    "intensity"
+  ],
+  "renderedAt": "2026-10-02T18:27:29.335Z"
+}

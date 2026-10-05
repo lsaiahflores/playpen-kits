@@ -1,0 +1,28 @@
+{
+  "id": "dusk_night",
+  "name": "Dusk / Night",
+  "blurb": "Blue-hour sky, warm lamps and glowing windows, fireflies, crickets and a quiet moon.",
+  "palette": {
+    "primary": "#ffc971", "secondary": "#6a7bd6", "accent": "#ff7b9c",
+    "street": "#2e3146", "sidewalk": "#565b78",
+    "ground": "#3a3f55", "foliage": "#2f6b6a", "foliage_dark": "#173c46", "water": "#2d4f8a", "water_deep": "#101f48",
+    "sky_top": "#0d1233", "sky_horizon": "#8a5a8c", "ground_horizon": "#3b2f55",
+    "sun": "#aab9ff", "fog": "#2a2f5a", "shadow": "#0a0f2a", "building": "#4a4f6a", "roof": "#2f3350",
+    "ui_bg": "#0a0f24", "ui_fg": "#f1f3ff"
+  },
+  "sun": { "pitch": -22, "yaw": -120, "energy": 0.55, "shadow": true, "color": "#aab9ff" },
+  "sky": { "clouds": 0.3, "cloud_speed": 0.006, "sun_glow": 0.4, "horizon_haze": 0.8, "stars": true, "moon": true },
+  "fog": { "density": 0.011, "sun_scatter": 0.1 },
+  "tonemap": { "mode": "filmic", "exposure": 1.1, "white": 5.0 },
+  "grade": { "brightness": 1.0, "contrast": 1.12, "saturation": 1.1 },
+  "glow": { "enabled": true, "intensity": 0.9, "bloom": 0.2, "threshold": 0.8 },
+  "materials": { "style": "toon", "steps": 3, "rim": 0.35, "outline": 0.0 },
+  "ui": { "accent": "#ffc971", "corner": 12 },
+  "ambient": {
+    "wind": 0.3, "clouds": true, "motes": 0.5, "leaves": 0.2, "water": true,
+    "birds": "none", "bird_count": 0, "butterflies": 0, "fireflies": 22, "pigeons": 0, "critters": 3,
+    "glow_signs": 1.0, "lamps": true, "time_of_day": "night"
+  },
+  "audio": { "beds": ["crickets", "wind"], "mood": "mysterious", "key": "A", "scale": "minor", "bpm": 84, "instruments": ["piano", "pad", "bass", "soft_drums"] },
+  "shaders": ["toon", "rim", "water", "wind_sway", "glow_pulse", "triplanar", "dissolve", "windows"]
+}

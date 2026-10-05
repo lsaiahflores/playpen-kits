@@ -1,0 +1,17 @@
+{
+  "id": "adventurous",
+  "key": "E",
+  "scale": "lydian",
+  "bpm": 104,
+  "loopBars": 4,
+  "loopSeconds": 9.23076923076923,
+  "lufsExplore": -16,
+  "gainDb": -1.4,
+  "stems": [
+    "base",
+    "rhythm",
+    "melody",
+    "intensity"
+  ],
+  "renderedAt": "2026-10-02T18:27:12.026Z"
+}

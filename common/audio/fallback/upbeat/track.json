@@ -1,0 +1,17 @@
+{
+  "id": "upbeat",
+  "key": "G",
+  "scale": "major",
+  "bpm": 118,
+  "loopBars": 4,
+  "loopSeconds": 8.135593220338983,
+  "lufsExplore": -16,
+  "gainDb": 0.9,
+  "stems": [
+    "base",
+    "rhythm",
+    "melody",
+    "intensity"
+  ],
+  "renderedAt": "2026-10-02T18:27:01.435Z"
+}
