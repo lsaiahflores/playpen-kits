@@ -24,5 +24,6 @@
     "glow_signs": 0.9, "blowing_paper": 6, "time_of_day": "day"
   },
   "audio": { "beds": ["city", "wind"], "mood": "upbeat", "key": "G", "scale": "major", "bpm": 108, "instruments": ["electric_piano", "guitar", "bass", "light_drums"] },
+  "sound_palette": "scifi",
   "shaders": ["toon", "rim", "wind_sway", "glow_pulse", "triplanar", "dissolve", "windows"]
 }

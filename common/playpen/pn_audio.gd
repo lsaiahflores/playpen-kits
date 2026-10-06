@@ -51,6 +51,33 @@ func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	_ensure_buses()
 	PNSettings.apply()
+	# 6.7 AUDIO IS VERIFIED, NOT ASSUMED: every 2s log the loudest peak per bus. playpen-play returns these console lines, so a
+	# report can say music / SFX / ambience actually produced sound ("[pn-audio] peaks ..."), or that a bus was silent.
+	var t := Timer.new()
+	t.wait_time = 2.0
+	t.autostart = true
+	t.timeout.connect(_log_peaks)
+	add_child(t)
+	_peak_max = {}
+
+# ---------------------------------------------------------------- audio level verification
+var _peak_max := {}
+var _peak_ticks := 0
+
+func peak_report() -> Dictionary:
+	return _peak_max.duplicate()
+
+func _log_peaks() -> void:
+	_peak_ticks += 1
+	var parts: PackedStringArray = []
+	for b in ["Music", "SFX", "Ambience", "UI"]:
+		var i := AudioServer.get_bus_index(b)
+		if i < 0:
+			continue
+		var db := maxf(AudioServer.get_bus_peak_volume_left_db(i, 0), AudioServer.get_bus_peak_volume_right_db(i, 0))
+		_peak_max[b] = maxf(float(_peak_max.get(b, -200.0)), db)
+		parts.append("%s=%.0fdB(max %.0f)" % [b, db, float(_peak_max[b])])
+	print("[pn-audio] peaks ", " ".join(parts), "  silent_buses=", ", ".join(_peak_max.keys().filter(func(k): return float(_peak_max[k]) < -60.0)))
 
 # ---------------------------------------------------------------- buses
 func _ensure_buses() -> void:
@@ -128,6 +155,8 @@ func configure_from_look(look: Dictionary) -> void:
 	scale_name = str(a.get("scale", "major"))
 	bpm = float(a.get("bpm", 110))
 	mood = str(a.get("mood", "sunny"))
+	sfx_palette = str(look.get("sound_palette", ""))
+	_variant_count.clear()
 
 ## Start an area's music: crossfades from whatever was playing. If the track has
 ## a track.json (written when Playpen renders it) its key/scale are adopted so
@@ -211,10 +240,30 @@ func stinger(name: String, duck_db := -9.0) -> void:
 	p.finished.connect(p.queue_free)
 
 # ---------------------------------------------------------------- SFX
-func sfx(name: String, pitch := 1.0, db := 0.0, bus := "SFX") -> AudioStreamPlayer:
+## The sound palette (from the look pack's "sound_palette"): a folder res://audio/sfx/<palette>/ of <event>_1..N.wav variants.
+var sfx_palette := ""
+var _variant_count := {}
+
+## One of the event's variants (random), from the palette folder if present, else the plain file, else a tiny synth.
+func _sfx_stream(name: String) -> AudioStream:
+	if sfx_palette != "":
+		var n: int = _variant_count.get(name, -1)
+		if n < 0:
+			n = 0
+			while ResourceLoader.exists("res://audio/sfx/%s/%s_%d.wav" % [sfx_palette, name, n + 1]) or ResourceLoader.exists("res://audio/sfx/%s/%s_%d.ogg" % [sfx_palette, name, n + 1]):
+				n += 1
+			_variant_count[name] = n
+		if n > 0:
+			var v := _load_audio("res://audio/sfx/%s/%s_%d" % [sfx_palette, name, 1 + randi() % n])
+			if v != null:
+				return v
 	var s := _load_audio("res://audio/sfx/" + name)
 	if s == null:
 		s = _synth_blip(name)
+	return s
+
+func sfx(name: String, pitch := 1.0, db := 0.0, bus := "SFX") -> AudioStreamPlayer:
+	var s := _sfx_stream(name)
 	var p := AudioStreamPlayer.new()
 	p.bus = bus
 	p.stream = s
@@ -226,9 +275,8 @@ func sfx(name: String, pitch := 1.0, db := 0.0, bus := "SFX") -> AudioStreamPlay
 	return p
 
 func sfx_3d(name: String, at: Vector3, pitch := 1.0, db := 0.0) -> AudioStreamPlayer3D:
-	var s := _load_audio("res://audio/sfx/" + name)
-	if s == null:
-		s = _synth_blip(name)
+	var s := _sfx_stream(name)
+	pitch *= randf_range(0.96, 1.04)   # variation: no two shots are identical
 	var p := AudioStreamPlayer3D.new()
 	p.bus = "SFX"
 	p.stream = s

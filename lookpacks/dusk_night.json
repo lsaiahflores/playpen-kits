@@ -24,5 +24,6 @@
     "glow_signs": 1.0, "lamps": true, "time_of_day": "night"
   },
   "audio": { "beds": ["crickets", "wind"], "mood": "mysterious", "key": "A", "scale": "minor", "bpm": 84, "instruments": ["piano", "pad", "bass", "soft_drums"] },
+  "sound_palette": "scifi",
   "shaders": ["toon", "rim", "water", "wind_sway", "glow_pulse", "triplanar", "dissolve", "windows"]
 }

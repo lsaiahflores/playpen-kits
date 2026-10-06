@@ -24,5 +24,6 @@
     "glow_signs": 0.3, "time_of_day": "golden"
   },
   "audio": { "beds": ["waves", "wind", "gulls"], "mood": "sunny", "key": "C", "scale": "major", "bpm": 112, "instruments": ["steel_drum", "ukulele", "marimba", "bass", "light_drums"] },
+  "sound_palette": "toy_plastic",
   "shaders": ["toon", "rim", "water", "wind_sway", "glow_pulse", "triplanar", "dissolve", "caustics"]
 }
