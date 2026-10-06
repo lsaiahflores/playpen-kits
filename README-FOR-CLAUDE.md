@@ -58,3 +58,11 @@ tuning knobs. `main.gd` has a `LEVEL` dictionary at the top: **change that first
   `RaceTrack` (generated loop), `RaceManager` (countdown/laps/positions), `AIDriver`, boost pads.
 
 Unknown genre? Start from the closest kit and add the missing mechanic on top of it.
+
+## Shooter kits (fps-arena, tps-shooter) + the brick-toy look
+- A complete team deathmatch already works: studded brick arena (PNBricks), nav-mesh bots (PNBot), four weapons (PNWeapon: rifle, pistol,
+  shotgun, launcher — tune the DEFS), match flow + scoreboard (PNMatch), HUD (PNShooterHud). Customize `LEVEL` in main.gd; never rewrite those systems.
+- Characters are real beveled, rigged, animated models in res://models/ (made by `playpen-model figure`, see PLAYPEN-MODELING.md). Swap colors/helmets
+  with `playpen-model figure --preset soldier --name hero --primary #...`. NEVER build a character from stacked boxes.
+- QA: `godot -- --autoplay` starts the match; `--overview` adds a high camera. Use `playpen-play`, LOOK at the PNGs.
+- Names in your plan, reports and in-game text must be ORIGINAL (heavy alien brawler, energy pistol) — never franchise names.

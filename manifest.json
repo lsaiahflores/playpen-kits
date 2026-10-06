@@ -1,11 +1,13 @@
 {
   "name": "playpen-kits",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engine": "godot-4.x (Compatibility renderer)",
   "kits": {
     "platformer3d": {
       "title": "3D Platformer (Sunshine / Mario-style)",
-      "genres": ["platformer"],
+      "genres": [
+        "platformer"
+      ],
       "dimension": "3d",
       "defaultLook": "sunny_tropical",
       "entry": "res://main.tscn",
@@ -13,7 +15,14 @@
     },
     "adventure3d": {
       "title": "Third-person Adventure (Ocarina-style)",
-      "genres": ["adventure", "action-rpg", "rpg", "open-world", "survival", "shooter"],
+      "genres": [
+        "adventure",
+        "action-rpg",
+        "rpg",
+        "open-world",
+        "survival",
+        "shooter"
+      ],
       "dimension": "3d",
       "defaultLook": "stylized_fantasy",
       "entry": "res://main.tscn",
@@ -21,16 +30,62 @@
     },
     "racing": {
       "title": "Arcade Racing",
-      "genres": ["racing", "sports"],
+      "genres": [
+        "racing",
+        "sports"
+      ],
       "dimension": "3d",
       "defaultLook": "bright_city",
       "entry": "res://main.tscn",
       "tested": "headless boot + windowed capture; driving telemetry (accel / steer / drift / boost)"
+    },
+    "fps-arena": {
+      "title": "First-person Arena Shooter",
+      "genres": [
+        "shooter",
+        "fps"
+      ],
+      "dimension": "3d",
+      "defaultLook": "brick_toy",
+      "entry": "res://main.tscn",
+      "tested": "headless boot"
+    },
+    "tps-shooter": {
+      "title": "Third-person Shooter",
+      "genres": [
+        "shooter",
+        "tps"
+      ],
+      "dimension": "3d",
+      "defaultLook": "brick_toy",
+      "entry": "res://main.tscn",
+      "tested": "headless boot"
     }
   },
-  "lookpacks": ["sunny_tropical", "bright_city", "lush_forest", "dusk_night", "stylized_fantasy"],
-  "shaders": ["toon", "rim", "outline", "water", "wind_sway", "glow_pulse", "triplanar", "caustics", "dissolve", "windows", "sky", "wings"],
-  "starters": ["app"],
+  "lookpacks": [
+    "sunny_tropical",
+    "bright_city",
+    "lush_forest",
+    "dusk_night",
+    "stylized_fantasy"
+  ],
+  "shaders": [
+    "toon",
+    "rim",
+    "outline",
+    "water",
+    "wind_sway",
+    "glow_pulse",
+    "triplanar",
+    "caustics",
+    "dissolve",
+    "windows",
+    "sky",
+    "wings"
+  ],
+  "starters": [
+    "app"
+  ],
   "catalog": "catalog/index.json",
   "music": "music/"
 }

@@ -180,3 +180,16 @@ func apply(world_env: WorldEnvironment, sun: DirectionalLight3D) -> void:
 		env.glow_hdr_threshold = float(gl.get("threshold", 1.0))
 		world_env.environment = env
 	PNWind.configure(look)
+
+## Glossy toy PLASTIC (brick-toy look). With `instance_color` the MultiMesh / vertex color tints it, so a wall of bricks is one draw call.
+func plastic_material(tint := Color.WHITE, instance_color := true) -> ShaderMaterial:
+	var m := ShaderMaterial.new()
+	m.shader = shader("plastic")
+	m.set_shader_parameter("albedo", tint)
+	m.set_shader_parameter("use_instance_color", instance_color)
+	var mat_cfg: Dictionary = look.get("materials", {})
+	m.set_shader_parameter("roughness", float(mat_cfg.get("roughness", 0.2)))
+	m.set_shader_parameter("specular", float(mat_cfg.get("specular", 0.85)))
+	m.set_shader_parameter("rim_amount", float(mat_cfg.get("rim", 0.22)))
+	m.set_shader_parameter("rim_color", color("sky_horizon", Color(0.82, 0.92, 1.0)))
+	return m

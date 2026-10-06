@@ -1,0 +1,62 @@
+[
+  {
+    "name": "brick_soldier_blue",
+    "kind": "figure",
+    "preset": "soldier",
+    "glb": "models/brick_soldier_blue.glb",
+    "preview": "models/brick_soldier_blue.png",
+    "triangles": 7044,
+    "height_m": 1.84,
+    "at": 1791235069047
+  },
+  {
+    "name": "brick_soldier_red",
+    "kind": "figure",
+    "preset": "soldier",
+    "glb": "models/brick_soldier_red.glb",
+    "preview": "models/brick_soldier_red.png",
+    "triangles": 7044,
+    "height_m": 1.84,
+    "at": 1791235083213
+  },
+  {
+    "name": "brick_trooper",
+    "kind": "figure",
+    "preset": "trooper",
+    "glb": "models/brick_trooper.glb",
+    "preview": "models/brick_trooper.png",
+    "triangles": 5524,
+    "height_m": 1.46,
+    "at": 1791235097693
+  },
+  {
+    "name": "brick_brawler",
+    "kind": "figure",
+    "preset": "brawler",
+    "glb": "models/brick_brawler.glb",
+    "preview": "models/brick_brawler.png",
+    "triangles": 6760,
+    "height_m": 2.28,
+    "at": 1791235111614
+  },
+  {
+    "name": "brick_skirmisher",
+    "kind": "figure",
+    "preset": "skirmisher",
+    "glb": "models/brick_skirmisher.glb",
+    "preview": "models/brick_skirmisher.png",
+    "triangles": 6676,
+    "height_m": 1.68,
+    "at": 1791235125703
+  },
+  {
+    "name": "brick_warrior",
+    "kind": "figure",
+    "preset": "warrior",
+    "glb": "models/brick_warrior.glb",
+    "preview": "models/brick_warrior.png",
+    "triangles": 6144,
+    "height_m": 2.11,
+    "at": 1791235140143
+  }
+]
