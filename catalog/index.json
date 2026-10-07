@@ -1,6 +1,6 @@
 {
  "version": 1,
- "builtAt": "2026-10-02T18:03:05.530Z",
+ "builtAt": "2026-10-07T23:08:26.732Z",
  "policy": "CC0 only; licence verified at build time; no Mixamo raw files; one style family per game",
  "styleFamilies": [
   "low-poly",
@@ -8,9 +8,11 @@
   "stylized",
   "realistic",
   "ui",
-  "audio"
+  "audio",
+  "particles",
+  "fonts"
  ],
- "count": 192,
+ "count": 226,
  "entries": [
   {
    "id": "kenney/nature-kit",
@@ -6310,6 +6312,1015 @@
     "date": "2026-10-02",
     "url": "https://quaternius.com/",
     "evidence": "A library of hundreds of free Low Poly 3D Models, using the CC0 License.\"/"
+   }
+  },
+  {
+   "id": "kenney/particle-pack",
+   "source": "kenney",
+   "title": "Particle Pack &middot; Kenney",
+   "kind": "particles",
+   "style": "ui",
+   "tags": [
+    "particles",
+    "smoke",
+    "fire",
+    "spark",
+    "magic",
+    "dust",
+    "flare",
+    "light",
+    "sprites",
+    "effects",
+    "vfx"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (80 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/particle-pack",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/particle-pack/f8fe0f8cb8-1677578741/kenney_particle-pack.zip",
+   "preview": "https://kenney.nl/media/pages/assets/particle-pack/d50c7fc9b6-1677578655/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/particle-pack",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/smoke-particles",
+   "source": "kenney",
+   "title": "Smoke Particles &middot; Kenney",
+   "kind": "particles",
+   "style": "ui",
+   "tags": [
+    "smoke",
+    "particles",
+    "puff",
+    "explosion",
+    "dust",
+    "steam",
+    "sprites",
+    "vfx"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (70 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/smoke-particles",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/smoke-particles/23249a0d35-1677695171/kenney_smoke-particles.zip",
+   "preview": "https://kenney.nl/media/pages/assets/smoke-particles/1b6cb144a9-1677695166/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/smoke-particles",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/splat-pack",
+   "source": "kenney",
+   "title": "Splat Pack &middot; Kenney",
+   "kind": "particles",
+   "style": "ui",
+   "tags": [
+    "splat",
+    "blood",
+    "paint",
+    "ink",
+    "decal",
+    "impact",
+    "sprites"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (30 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/splat-pack",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/splat-pack/1070534984-1677495350/kenney_splat-pack.zip",
+   "preview": "https://kenney.nl/media/pages/assets/splat-pack/91cb9b703e-1677495346/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/splat-pack",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/foliage-sprites",
+   "source": "kenney",
+   "title": "Foliage Sprites &middot; Kenney",
+   "kind": "particles",
+   "style": "ui",
+   "tags": [
+    "foliage",
+    "leaves",
+    "grass",
+    "plants",
+    "sprites",
+    "nature",
+    "2d"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (50 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/foliage-sprites",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/foliage-sprites/b65bd70c69-1677495980/kenney_foliage-sprites.zip",
+   "preview": "https://kenney.nl/media/pages/assets/foliage-sprites/634189118b-1677495976/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/foliage-sprites",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/kenney-fonts",
+   "source": "kenney",
+   "title": "Kenney Fonts &middot; Kenney",
+   "kind": "fonts",
+   "style": "ui",
+   "tags": [
+    "fonts",
+    "typeface",
+    "title",
+    "hud",
+    "text",
+    "pixel",
+    "blocky",
+    "future"
+   ],
+   "scale": "ttf",
+   "description": "Download this package (11 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/kenney-fonts",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/kenney-fonts/8d5435c213-1677661710/kenney_kenney-fonts.zip",
+   "preview": "https://kenney.nl/media/pages/assets/kenney-fonts/703183582c-1677661704/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/kenney-fonts",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/board-game-icons",
+   "source": "kenney",
+   "title": "Board Game Icons &middot; Kenney",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "icons",
+    "board",
+    "game",
+    "dice",
+    "cards",
+    "pieces",
+    "tokens",
+    "hud"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (250 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/board-game-icons",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/board-game-icons/19cae04050-1721645690/kenney_board-game-icons.zip",
+   "preview": "https://kenney.nl/media/pages/assets/board-game-icons/d5c5bd2f28-1674933139/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/board-game-icons",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/1-bit-pack",
+   "source": "kenney",
+   "title": "1-Bit Pack &middot; Kenney",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "1-bit",
+    "pixel",
+    "tiles",
+    "retro",
+    "monochrome",
+    "sprites",
+    "8-bit",
+    "dungeon"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (1078 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/1-bit-pack",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/1-bit-pack/aa867a1f37-1677578516/kenney_1-bit-pack.zip",
+   "preview": "https://kenney.nl/media/pages/assets/1-bit-pack/263abe0f15-1677578508/sample_fantasy.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/1-bit-pack",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/pixel-ui-pack",
+   "source": "kenney",
+   "title": "Pixel UI Pack &middot; Kenney",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "pixel",
+    "ui",
+    "buttons",
+    "panels",
+    "menu",
+    "retro",
+    "8-bit",
+    "interface"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (750 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/pixel-ui-pack",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/pixel-ui-pack/821e760f21-1677661508/kenney_pixel-ui-pack.zip",
+   "preview": "https://kenney.nl/media/pages/assets/pixel-ui-pack/0ac499be0d-1677661504/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/pixel-ui-pack",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/fantasy-ui-borders",
+   "source": "kenney",
+   "title": "Fantasy UI Borders &middot; Kenney",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "fantasy",
+    "ui",
+    "borders",
+    "frames",
+    "panels",
+    "storybook",
+    "menu"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (140 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/fantasy-ui-borders",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/fantasy-ui-borders/ab29cd0165-1701602367/kenney_fantasy-ui-borders.zip",
+   "preview": "https://kenney.nl/media/pages/assets/fantasy-ui-borders/ac36214d33-1701602364/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/fantasy-ui-borders",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/pixel-platformer",
+   "source": "kenney",
+   "title": "Pixel Platformer &middot; Kenney",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "pixel",
+    "platformer",
+    "tiles",
+    "characters",
+    "2d",
+    "side-scroller",
+    "8-bit",
+    "retro"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (200 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/pixel-platformer",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/pixel-platformer/33bb4921eb-1696667883/kenney_pixel-platformer.zip",
+   "preview": "https://kenney.nl/media/pages/assets/pixel-platformer/bf585643f0-1696667860/samplea.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/pixel-platformer",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/tiny-town",
+   "source": "kenney",
+   "title": "Tiny Town &middot; Kenney",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "tiny",
+    "town",
+    "top-down",
+    "tiles",
+    "village",
+    "2d",
+    "houses"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (130 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/tiny-town",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/tiny-town/a415fbeb49-1735736916/kenney_tiny-town.zip",
+   "preview": "https://kenney.nl/media/pages/assets/tiny-town/e241a9f6c0-1674742338/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/tiny-town",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/platformer-characters",
+   "source": "kenney",
+   "title": "Platformer Characters &middot; Kenney",
+   "kind": "ui",
+   "style": "ui",
+   "tags": [
+    "platformer",
+    "characters",
+    "2d",
+    "sprites",
+    "heroes",
+    "animated",
+    "side-scroller"
+   ],
+   "scale": "2D sprites",
+   "description": "Download this package (150 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/platformer-characters",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/platformer-characters/b85f388c42-1677693768/kenney_platformer-characters.zip",
+   "preview": "https://kenney.nl/media/pages/assets/platformer-characters/753f647f75-1677693764/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/platformer-characters",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/blocky-characters",
+   "source": "kenney",
+   "title": "Blocky Characters &middot; Kenney",
+   "kind": "characters",
+   "style": "low-poly",
+   "tags": [
+    "characters",
+    "blocky",
+    "people",
+    "humans",
+    "voxel",
+    "rigged",
+    "npc",
+    "hero",
+    "toy"
+   ],
+   "scale": "rigged",
+   "description": "Download this package (20 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/blocky-characters",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/blocky-characters/8369c0cf30-1749547469/kenney_blocky-characters_20.zip",
+   "preview": "https://kenney.nl/media/pages/assets/blocky-characters/4ace046751-1749547441/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/blocky-characters",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/mini-characters",
+   "source": "kenney",
+   "title": "Mini Characters &middot; Kenney",
+   "kind": "characters",
+   "style": "toon",
+   "tags": [
+    "characters",
+    "mini",
+    "chibi",
+    "people",
+    "toy",
+    "rigged",
+    "animated",
+    "npc"
+   ],
+   "scale": "rigged",
+   "description": "Download this package (25 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/mini-characters",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/mini-characters/bfc7e272b4-1774770718/kenney_mini-characters.zip",
+   "preview": "https://kenney.nl/media/pages/assets/mini-characters/357d1a9452-1721210569/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/mini-characters",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/shape-characters",
+   "source": "kenney",
+   "title": "Shape Characters &middot; Kenney",
+   "kind": "characters",
+   "style": "toon",
+   "tags": [
+    "characters",
+    "shapes",
+    "simple",
+    "cute",
+    "mascot"
+   ],
+   "scale": "rigged",
+   "description": "Download this package (100 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/shape-characters",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/shape-characters/c016420b08-1698339465/kenney_shape-characters.zip",
+   "preview": "https://kenney.nl/media/pages/assets/shape-characters/f7aa93d6d0-1698339460/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/shape-characters",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/animal-pack",
+   "source": "kenney",
+   "title": "Animal Pack &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "animals",
+    "pets",
+    "creatures",
+    "dog",
+    "cat",
+    "cow",
+    "pig",
+    "zoo",
+    "farm"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (80 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/animal-pack",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/animal-pack/480cf9f223-1677669996/kenney_animal-pack.zip",
+   "preview": "https://kenney.nl/media/pages/assets/animal-pack/3562615d13-1677669990/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/animal-pack",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/modular-dungeon-kit",
+   "source": "kenney",
+   "title": "Modular Dungeon Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "dungeon",
+    "modular",
+    "walls",
+    "floors",
+    "doors",
+    "stairs",
+    "torches",
+    "crypt",
+    "fantasy"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (40 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/modular-dungeon-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/modular-dungeon-kit/7bed87605b-1771926065/kenney_modular-dungeon-kit_1.0.zip",
+   "preview": "https://kenney.nl/media/pages/assets/modular-dungeon-kit/fe4b7d1cba-1771926047/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/modular-dungeon-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/graveyard-kit",
+   "source": "kenney",
+   "title": "Graveyard Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "graveyard",
+    "cemetery",
+    "tombstone",
+    "crypt",
+    "spooky",
+    "halloween",
+    "fence"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (90 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/graveyard-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/graveyard-kit/ba8d4b4517-1760691807/kenney_graveyard-kit_5.0.zip",
+   "preview": "https://kenney.nl/media/pages/assets/graveyard-kit/9f3be82eb6-1760691801/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/graveyard-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/furniture-kit",
+   "source": "kenney",
+   "title": "Furniture Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "furniture",
+    "interior",
+    "room",
+    "chair",
+    "table",
+    "bed",
+    "sofa",
+    "lamp",
+    "indoor",
+    "house"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (140 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/furniture-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+   "preview": "https://kenney.nl/media/pages/assets/furniture-kit/4573c6a40b-1677580842/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/furniture-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/holiday-kit",
+   "source": "kenney",
+   "title": "Holiday Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "holiday",
+    "christmas",
+    "halloween",
+    "decorations",
+    "props",
+    "festive"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (100 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/holiday-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/holiday-kit/3976a6496a-1733923970/kenney_holiday-kit.zip",
+   "preview": "https://kenney.nl/media/pages/assets/holiday-kit/2e8f59c1ab-1733923964/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/holiday-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/food-kit",
+   "source": "kenney",
+   "title": "Food Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "food",
+    "kitchen",
+    "fruit",
+    "burger",
+    "pizza",
+    "vegetables",
+    "restaurant",
+    "props"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (200 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/food-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+   "preview": "https://kenney.nl/media/pages/assets/food-kit/7a37477a9c-1719418523/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/food-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/hexagon-kit",
+   "source": "kenney",
+   "title": "Hexagon Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "hexagon",
+    "tiles",
+    "board",
+    "strategy",
+    "terrain",
+    "map"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (70 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/hexagon-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/hexagon-kit/fd3b63101b-1706007730/kenney_hexagon-kit.zip",
+   "preview": "https://kenney.nl/media/pages/assets/hexagon-kit/3920b0463b-1706007672/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/hexagon-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/train-kit",
+   "source": "kenney",
+   "title": "Train Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "train",
+    "rails",
+    "station",
+    "locomotive",
+    "railway",
+    "tracks"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (100 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/train-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/train-kit/cf8521d625-1727040883/kenney_train-kit.zip",
+   "preview": "https://kenney.nl/media/pages/assets/train-kit/625675b011-1722429699/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/train-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/prototype-kit",
+   "source": "kenney",
+   "title": "Prototype Kit &middot; Kenney",
+   "kind": "models",
+   "style": "toon",
+   "tags": [
+    "prototype",
+    "blockout",
+    "greybox",
+    "kit",
+    "level",
+    "design",
+    "primitives"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (145 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/prototype-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/prototype-kit/4d3b7073ed-1724832076/kenney_prototype-kit.zip",
+   "preview": "https://kenney.nl/media/pages/assets/prototype-kit/6ed928c9d0-1724832070/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/prototype-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/blaster-kit",
+   "source": "kenney",
+   "title": "Blaster Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "blasters",
+    "guns",
+    "weapons",
+    "pistol",
+    "rifle",
+    "shotgun",
+    "scifi",
+    "shooter",
+    "targets"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (40 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/blaster-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/blaster-kit/261d80a716-1753959510/kenney_blaster-kit_2.1.zip",
+   "preview": "https://kenney.nl/media/pages/assets/blaster-kit/7f0e90a313-1753959516/preview.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/blaster-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/tower-defense-kit",
+   "source": "kenney",
+   "title": "Tower Defense Kit &middot; Kenney",
+   "kind": "models",
+   "style": "low-poly",
+   "tags": [
+    "tower",
+    "defense",
+    "towers",
+    "enemies",
+    "turret",
+    "map",
+    "tiles"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (160 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/tower-defense-kit",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/tower-defense-kit/a402493eaa-1726471567/kenney_tower-defense-kit.zip",
+   "preview": "https://kenney.nl/media/pages/assets/tower-defense-kit/1f419ba88f-1726042030/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/tower-defense-kit",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/mini-dungeon",
+   "source": "kenney",
+   "title": "Mini Dungeon &middot; Kenney",
+   "kind": "models",
+   "style": "toon",
+   "tags": [
+    "dungeon",
+    "mini",
+    "toy",
+    "diorama",
+    "rooms",
+    "chest",
+    "enemies"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (30 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/mini-dungeon",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/mini-dungeon/6cd72dc849-1785314274/kenney_mini-dungeon.zip",
+   "preview": "https://kenney.nl/media/pages/assets/mini-dungeon/5b23e91c6e-1785314288/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/mini-dungeon",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/mini-arena",
+   "source": "kenney",
+   "title": "Mini Arena &middot; Kenney",
+   "kind": "models",
+   "style": "toon",
+   "tags": [
+    "arena",
+    "mini",
+    "toy",
+    "diorama",
+    "battle",
+    "ring"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (20 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/mini-arena",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/mini-arena/88f977a0cb-1709220730/kenney_mini-arena.zip",
+   "preview": "https://kenney.nl/media/pages/assets/mini-arena/acc1e8d98e-1709220747/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/mini-arena",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/mini-skate",
+   "source": "kenney",
+   "title": "Mini Skate &middot; Kenney",
+   "kind": "models",
+   "style": "toon",
+   "tags": [
+    "skate",
+    "park",
+    "ramps",
+    "rails",
+    "toy",
+    "diorama"
+   ],
+   "scale": "1 unit = 1 m",
+   "description": "Download this package (20 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/mini-skate",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/mini-skate/00b0c2b304-1709221152/kenney_mini-skate.zip",
+   "preview": "https://kenney.nl/media/pages/assets/mini-skate/f6068b9ce8-1709221252/sample.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/mini-skate",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/sci-fi-sounds",
+   "source": "kenney",
+   "title": "Sci-fi Sounds &middot; Kenney",
+   "kind": "audio",
+   "style": "audio",
+   "tags": [
+    "sci-fi",
+    "sounds",
+    "laser",
+    "explosion",
+    "engine",
+    "door",
+    "beep",
+    "space",
+    "energy",
+    "shots"
+   ],
+   "scale": "wav/ogg",
+   "description": "Download this package (70 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/sci-fi-sounds",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+   "preview": "https://kenney.nl/media/pages/assets/sci-fi-sounds/112ea5fed7-1677589328/audiopreview_scifi.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/sci-fi-sounds",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/ui-audio",
+   "source": "kenney",
+   "title": "UI Audio &middot; Kenney",
+   "kind": "audio",
+   "style": "audio",
+   "tags": [
+    "ui",
+    "sounds",
+    "click",
+    "switch",
+    "toggle",
+    "menu",
+    "confirm",
+    "cancel"
+   ],
+   "scale": "wav/ogg",
+   "description": "Download this package (50 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/ui-audio",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/ui-audio/490d233f68-1677590494/kenney_ui-audio.zip",
+   "preview": "https://kenney.nl/media/pages/assets/ui-audio/2dbeff8f75-1677590482/preview-6.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/ui-audio",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/digital-audio",
+   "source": "kenney",
+   "title": "Digital Audio &middot; Kenney",
+   "kind": "audio",
+   "style": "audio",
+   "tags": [
+    "digital",
+    "retro",
+    "8-bit",
+    "chiptune",
+    "bleeps",
+    "pickups",
+    "jumps",
+    "power-ups"
+   ],
+   "scale": "wav/ogg",
+   "description": "Download this package (60 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/digital-audio",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+   "preview": "https://kenney.nl/media/pages/assets/digital-audio/f240714ae3-1677590256/preview-3.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/digital-audio",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/music-jingles",
+   "source": "kenney",
+   "title": "Music Jingles &middot; Kenney",
+   "kind": "audio",
+   "style": "audio",
+   "tags": [
+    "music",
+    "jingles",
+    "stingers",
+    "victory",
+    "fail",
+    "level-up",
+    "short",
+    "melody",
+    "fanfare"
+   ],
+   "scale": "wav/ogg",
+   "description": "Download this package (85 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/music-jingles",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/music-jingles/f37e530b9e-1677590399/kenney_music-jingles.zip",
+   "preview": "https://kenney.nl/media/pages/assets/music-jingles/ef8668e122-1677590390/preview-5.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/music-jingles",
+    "evidence": "are public domain licensed (CC0)"
+   }
+  },
+  {
+   "id": "kenney/casino-audio",
+   "source": "kenney",
+   "title": "Casino Audio &middot; Kenney",
+   "kind": "audio",
+   "style": "audio",
+   "tags": [
+    "casino",
+    "cards",
+    "chips",
+    "dice",
+    "coins",
+    "slot",
+    "sounds"
+   ],
+   "scale": "wav/ogg",
+   "description": "Download this package (50 assets) for free, CC0 licensed!",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://kenney.nl/assets/casino-audio",
+   "downloadUrl": "https://kenney.nl/media/pages/assets/casino-audio/2472606a04-1721639069/kenney_casino-audio.zip",
+   "preview": "https://kenney.nl/media/pages/assets/casino-audio/225669dbea-1677590184/preview-2.png",
+   "autoDownload": true,
+   "verified": {
+    "date": "2026-10-07",
+    "url": "https://kenney.nl/assets/casino-audio",
+    "evidence": "are public domain licensed (CC0)"
    }
   }
  ]

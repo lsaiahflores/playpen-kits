@@ -53,6 +53,45 @@ const KENNEY = [
   ['rpg-audio', 'audio', 'audio', 'rpg sounds sword cloth leather coins door swing', 'wav/ogg']
 ];
 
+// Wave 1 additions (Batch 5 6.1): characters, modular environment kits, particles, fonts, icons, more CC0 audio.
+// Each is verified against kenney.nl's own page by kenney() below (CC0 statement + a real zip link) — nothing is indexed on faith.
+const KENNEY_WAVE1 = [
+  ['particle-pack', 'particles', 'ui', 'particles smoke fire spark magic dust flare light sprites effects vfx', '2D sprites'],
+  ['smoke-particles', 'particles', 'ui', 'smoke particles puff explosion dust steam sprites vfx', '2D sprites'],
+  ['splat-pack', 'particles', 'ui', 'splat blood paint ink decal impact sprites', '2D sprites'],
+  ['foliage-sprites', 'particles', 'ui', 'foliage leaves grass plants sprites nature 2d', '2D sprites'],
+  ['kenney-fonts', 'fonts', 'ui', 'fonts typeface title hud text pixel blocky future', 'ttf'],
+  ['board-game-icons', 'ui', 'ui', 'icons board game dice cards pieces tokens hud', '2D sprites'],
+  ['1-bit-pack', 'ui', 'ui', '1-bit pixel tiles retro monochrome sprites 8-bit dungeon', '2D sprites'],
+  ['pixel-ui-pack', 'ui', 'ui', 'pixel ui buttons panels menu retro 8-bit interface', '2D sprites'],
+  ['fantasy-ui-borders', 'ui', 'ui', 'fantasy ui borders frames panels storybook menu', '2D sprites'],
+  ['pixel-platformer', 'ui', 'ui', 'pixel platformer tiles characters 2d side-scroller 8-bit retro', '2D sprites'],
+  ['tiny-town', 'ui', 'ui', 'tiny town top-down tiles village 2d houses', '2D sprites'],
+  ['platformer-characters', 'ui', 'ui', 'platformer characters 2d sprites heroes animated side-scroller', '2D sprites'],
+  ['blocky-characters', 'characters', 'low-poly', 'characters blocky people humans voxel rigged npc hero toy', 'rigged'],
+  ['mini-characters', 'characters', 'toon', 'characters mini chibi people toy rigged animated npc', 'rigged'],
+  ['shape-characters', 'characters', 'toon', 'characters shapes simple cute mascot', 'rigged'],
+  ['animal-pack', 'models', 'low-poly', 'animals pets creatures dog cat cow pig zoo farm', '1 unit = 1 m'],
+  ['modular-dungeon-kit', 'models', 'low-poly', 'dungeon modular walls floors doors stairs torches crypt fantasy', '1 unit = 1 m'],
+  ['graveyard-kit', 'models', 'low-poly', 'graveyard cemetery tombstone crypt spooky halloween fence', '1 unit = 1 m'],
+  ['furniture-kit', 'models', 'low-poly', 'furniture interior room chair table bed sofa lamp indoor house', '1 unit = 1 m'],
+  ['holiday-kit', 'models', 'low-poly', 'holiday christmas halloween decorations props festive', '1 unit = 1 m'],
+  ['food-kit', 'models', 'low-poly', 'food kitchen fruit burger pizza vegetables restaurant props', '1 unit = 1 m'],
+  ['hexagon-kit', 'models', 'low-poly', 'hexagon tiles board strategy terrain map', '1 unit = 1 m'],
+  ['train-kit', 'models', 'low-poly', 'train rails station locomotive railway tracks', '1 unit = 1 m'],
+  ['prototype-kit', 'models', 'toon', 'prototype blockout greybox kit level design primitives', '1 unit = 1 m'],
+  ['blaster-kit', 'models', 'low-poly', 'blasters guns weapons pistol rifle shotgun scifi shooter targets', '1 unit = 1 m'],
+  ['tower-defense-kit', 'models', 'low-poly', 'tower defense towers enemies turret map tiles', '1 unit = 1 m'],
+  ['mini-dungeon', 'models', 'toon', 'dungeon mini toy diorama rooms chest enemies', '1 unit = 1 m'],
+  ['mini-arena', 'models', 'toon', 'arena mini toy diorama battle ring', '1 unit = 1 m'],
+  ['mini-skate', 'models', 'toon', 'skate park ramps rails toy diorama', '1 unit = 1 m'],
+  ['sci-fi-sounds', 'audio', 'audio', 'sci-fi sounds laser explosion engine door beep space energy shots', 'wav/ogg'],
+  ['ui-audio', 'audio', 'audio', 'ui sounds click switch toggle menu confirm cancel', 'wav/ogg'],
+  ['digital-audio', 'audio', 'audio', 'digital retro 8-bit chiptune bleeps pickups jumps power-ups', 'wav/ogg'],
+  ['music-jingles', 'audio', 'audio', 'music jingles stingers victory fail level-up short melody fanfare', 'wav/ogg'],
+  ['casino-audio', 'audio', 'audio', 'casino cards chips dice coins slot sounds', 'wav/ogg']
+];
+
 const QUATERNIUS = [
   ['downtowncitymegakit', 'models', 'low-poly', 'city downtown buildings urban street props skyscrapers shops signs vehicles', '1 unit = 1 m'],
   ['stylizednaturemegakit', 'models', 'stylized', 'nature trees rocks bushes stylized forest plants flowers', '1 unit = 1 m'],
@@ -175,7 +214,21 @@ async function ambientcg() {
   return out;
 }
 
+async function addWave1() {
+  const cur = JSON.parse(fs.readFileSync(OUT, 'utf-8'));
+  const have = new Set(cur.entries.map((e) => e.id));
+  console.log('Kenney wave 1 (merge into the existing index)…');
+  const added = (await kenney(KENNEY_WAVE1)).filter((e) => !have.has(e.id));
+  cur.entries.push(...added);
+  cur.count = cur.entries.length;
+  cur.styleFamilies = Array.from(new Set([...(cur.styleFamilies || []), 'particles', 'fonts']));
+  cur.builtAt = new Date().toISOString();
+  fs.writeFileSync(OUT, JSON.stringify(cur, null, 1));
+  console.log(`catalog: +${added.length} entries (now ${cur.count}) -> ${OUT}`);
+}
+
 async function main() {
+  if (process.argv.includes('--wave1')) return addWave1();
   console.log('Kenney…');
   const k = await kenney(KENNEY);
   console.log('Quaternius…');
