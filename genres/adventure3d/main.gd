@@ -156,9 +156,8 @@ func _build_player() -> void:
 	player.camera = cam
 
 func _build_actors() -> void:
-	amb = PNAmbient.new()
-	world.add_child(amb)
-	amb.build(player, Rect2(-70, -70, 140, 140), LEVEL["seed"])
+	# RICH + LIVING by default: grass, ground detail, horizon layers, vignette, time of day, ambient life and matching ambience.
+	amb = PNRich.build(world, env_node, sun, player, Rect2(-70, -70, 140, 140), {"seed": LEVEL["seed"]}).ambient()
 	for i in int(LEVEL["enemies"]):
 		var a := TAU * i / LEVEL["enemies"] + 0.4
 		var r := 26.0 + (i % 2) * 14.0

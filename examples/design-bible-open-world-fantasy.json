@@ -1,0 +1,30 @@
+{
+  "request": "a fantasy open world with a kingdom to explore",
+  "subjects": [{ "reference": "the kingdom", "what": "a rolling green kingdom with a castle town, a river and a forest edge", "how": "painterly lifelike fantasy", "feel": "calm, curious exploration" }],
+  "artStyle": "rich, lifelike fantasy: warm daylight, saturated greens, soft depth",
+  "lookPack": "stylized_fantasy",
+  "builders": ["organic-base", "kit-assembly", "catalog-model"],
+  "characters": [
+    { "name": "Wayfarer", "role": "the player", "kind": "hero", "builder": "sculpted-toy", "base": "chunky-humanoid", "parts": ["helmet=visor_round", "pads=shoulder_big"], "silhouette": "broad, cloaked", "features": ["hooded cloak", "round shield", "lantern"], "palette": { "primary": "#3f6fb0", "secondary": "#d9b45a", "accent": "#c0392b" }, "animations": ["idle", "walk", "run", "jump", "attack", "hit", "die"] },
+    { "name": "Meadow Hound", "role": "friendly wildlife that follows travelers", "kind": "npc", "builder": "organic-base", "base": "quadruped", "parts": [], "silhouette": "four-legged, low", "features": ["floppy ears", "wagging tail"], "palette": { "primary": "#b98a5a" }, "animations": ["idle", "walk", "run"] }
+  ],
+  "environment": { "kits": ["kenney/fantasy-town-kit", "quaternius/stylizednaturemegakit", "kenney/nature-kit"], "terrain": "rolling hills with a river valley, a castle town on the rise, a forest edge, a stone road", "sky": "gradient blue with warm sun glow and layered cumulus", "light": "warm sun key at 40 degrees, cool sky fill, soft shadows", "fog": "light blue haze toward the horizon", "scatter": "trees, bushes, boulders, wildflowers, fences; random size 0.7-1.4 and rotation; never tiled", "ambient": "full living-world layer" },
+  "camera": "third person, 5 m back, 2 m up, fov 70", "hud": "hearts top-left, compass top-center, map bottom-right",
+  "ui": { "font": "kenney/kenney-fonts", "icons": "kenney/game-icons", "tokens": "parchment panels, 12px radius, 8px grid" },
+  "sound": { "palette": "toy_plastic", "sfxEvents": ["footstep", "jump", "land", "sword_swing", "hit", "pickup", "ui_click", "door"], "ambience": ["birds_day", "insects_day", "wind", "water", "rustle", "crickets_night", "owl_night"], "voiceLines": [] },
+  "music": { "genre": "pastoral fantasy", "key": "D", "scale": "lydian", "bpm": 96, "sections": ["intro", "loop", "variation"], "instruments": ["flute", "strings", "harp", "light_drums"], "states": { "explore": "bright flute and harp", "danger": "low strings and drums", "night": "soft harp and pads" } },
+  "richness": "rich",
+  "richnessWhy": "rich and lifelike (the default; you did not ask for a simpler style)",
+  "livingWorld": {
+    "level": "full", "biome": "meadow", "timeOfDay": "day",
+    "byTime": {
+      "day": ["songbirds", "butterflies", "bees", "insects", "small_critters", "drifting_clouds", "swaying_grass", "distant_bird_flocks", "fish_ripples"],
+      "dusk": ["bats", "fireflies", "moths", "swaying_grass"],
+      "night": ["fireflies", "owls", "stars", "shooting_stars", "mist", "moonlit_water"]
+    },
+    "weather": ["rain", "fog", "drifting_petals"],
+    "sounds": ["birds_day", "insects_day", "wind", "water", "rustle", "crickets_night", "owl_night"]
+  },
+  "manifest": [{ "name": "wayfarer", "type": "character", "ref": "sculpted-toy:chunky-humanoid" }, { "name": "meadow_hound", "type": "character", "ref": "organic-base:quadruped" }],
+  "credits": ["kenney/fantasy-town-kit", "kenney/nature-kit"]
+}

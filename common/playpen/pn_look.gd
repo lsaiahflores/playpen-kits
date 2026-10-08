@@ -96,6 +96,16 @@ func terrain_material() -> ShaderMaterial:
 	m.set_shader_parameter("top_color_b", color("foliage", Color(0.45, 0.76, 0.3)).lightened(0.02))
 	m.set_shader_parameter("side_color", color("ground", Color(0.46, 0.38, 0.3)).darkened(0.1))
 	m.set_shader_parameter("side_color_b", color("ground", Color(0.36, 0.3, 0.26)).darkened(0.3))
+	# rich ground by default: patches of dirt / dry grass / moss, fine grain, sparse flowers (stylized: gentler; flat: none)
+	var lvl := str(look.get("richness", "rich"))
+	var k := 1.0 if lvl == "rich" else (0.45 if lvl == "stylized" else 0.0)
+	m.set_shader_parameter("grain_amount", 0.24 * k)
+	m.set_shader_parameter("dry_amount", 0.4 * k)
+	m.set_shader_parameter("dirt_amount", 0.65 * k)
+	m.set_shader_parameter("moss_amount", 0.5 * k)
+	m.set_shader_parameter("flower_density", 0.045 * k)
+	m.set_shader_parameter("dirt_color", color("ground", Color(0.45, 0.34, 0.24)).darkened(0.1))
+	m.set_shader_parameter("dry_color", color("foliage", Color(0.5, 0.6, 0.3)).lerp(Color(0.78, 0.68, 0.32), 0.55))
 	return m
 
 func windows_material(wall: Color, night := -1.0, seed_value := 1.0) -> ShaderMaterial:
@@ -129,6 +139,8 @@ func apply(world_env: WorldEnvironment, sun: DirectionalLight3D) -> void:
 	sm.set_shader_parameter("cloud_cover", float(sky_cfg.get("clouds", 0.5)))
 	sm.set_shader_parameter("cloud_speed", float(sky_cfg.get("cloud_speed", 0.012)))
 	sm.set_shader_parameter("stars", 1.0 if sky_cfg.get("stars", false) else 0.0)
+	sm.set_shader_parameter("moon", 1.0 if sky_cfg.get("moon", false) else 0.0)
+	sm.set_shader_parameter("shooting_star", 1.0 if sky_cfg.get("stars", false) else 0.0)
 	sm.set_shader_parameter("cloud_quality", 1 if PNSettings.quality == PNSettings.Quality.LOW else 2)
 	var sky := Sky.new()
 	sky.sky_material = sm

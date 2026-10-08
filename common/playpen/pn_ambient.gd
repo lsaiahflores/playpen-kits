@@ -17,6 +17,8 @@ const WINGS_SHADER := "res://playpen/shaders/wings.gdshader"
 var target: Node3D
 var area := Rect2(-60, -60, 120, 120)
 var cfg: Dictionary = {}
+## PNRich fills this from the living-world plan; when empty the look pack's `ambient` block is used.
+var override_cfg: Dictionary = {}
 var _rng := RandomNumberGenerator.new()
 var _t := 0.0
 
@@ -34,7 +36,7 @@ func build(player: Node3D, play_area := Rect2(-60, -60, 120, 120), seed_value :=
 	target = player
 	area = play_area
 	_rng.seed = seed_value
-	cfg = PNLook.ambient_cfg()
+	cfg = override_cfg if not override_cfg.is_empty() else PNLook.ambient_cfg()
 	var s := PNSettings.scale()
 	PNWind.gust.connect(_on_gust)
 	if float(cfg.get("motes", 0.0)) > 0.0:
@@ -112,6 +114,7 @@ func _bird_colors(kind: String) -> Array:
 		"gulls": return [Color(0.97, 0.97, 0.98), Color(0.2, 0.22, 0.28)]
 		"pigeons": return [Color(0.58, 0.6, 0.66), Color(0.35, 0.37, 0.45)]
 		"songbirds": return [Color(0.95, 0.6, 0.25), Color(0.25, 0.2, 0.3)]
+		"bats": return [Color(0.16, 0.12, 0.2), Color(0.06, 0.05, 0.09)]
 	return [Color(0.2, 0.2, 0.25), Color(0.1, 0.1, 0.12)]
 
 func _make_flock(kind: String, count: int, perching := false) -> void:
@@ -222,7 +225,8 @@ func _update_butterflies(_delta: float, tp: Vector3) -> void:
 # ----------------------------------------------------------------- fireflies
 func _make_fireflies(count: int) -> void:
 	var quad := QuadMesh.new()
-	quad.size = Vector2(0.22, 0.22)
+	var fsz := float(cfg.get("firefly_size", 0.22))
+	quad.size = Vector2(fsz, fsz)
 	var mat := StandardMaterial3D.new()
 	mat.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
 	mat.billboard_mode = BaseMaterial3D.BILLBOARD_ENABLED

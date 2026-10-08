@@ -3,27 +3,172 @@
   "name": "Bright City",
   "blurb": "Clean daytime city: warm sun, glass and brick, pigeons, blowing paper, traffic hum and glowing signs.",
   "palette": {
-    "primary": "#ffb627", "secondary": "#3fa7d6", "accent": "#e4572e",
-    "street": "#575a60", "sidewalk": "#b9b7b0",
-    "ground": "#6d6f74", "foliage": "#4fa65a", "foliage_dark": "#2f7d3f", "water": "#4aa8d8", "water_deep": "#1c6a9c",
-    "sky_top": "#3d86d8", "sky_horizon": "#d5e9f7", "ground_horizon": "#e3e6ea",
-    "sun": "#fff2d0", "fog": "#d8e4ee", "shadow": "#41507a", "building": "#c9b9a6", "roof": "#7a5c4a",
-    "ui_bg": "#1b2b3c", "ui_fg": "#ffffff"
+    "primary": "#ffb627",
+    "secondary": "#3fa7d6",
+    "accent": "#e4572e",
+    "street": "#575a60",
+    "sidewalk": "#b9b7b0",
+    "ground": "#6d6f74",
+    "foliage": "#4fa65a",
+    "foliage_dark": "#2f7d3f",
+    "water": "#4aa8d8",
+    "water_deep": "#1c6a9c",
+    "sky_top": "#3d86d8",
+    "sky_horizon": "#d5e9f7",
+    "ground_horizon": "#e3e6ea",
+    "sun": "#fff2d0",
+    "fog": "#d8e4ee",
+    "shadow": "#41507a",
+    "building": "#c9b9a6",
+    "roof": "#7a5c4a",
+    "ui_bg": "#1b2b3c",
+    "ui_fg": "#ffffff"
   },
-  "sun": { "pitch": -52, "yaw": -30, "energy": 1.25, "shadow": true, "color": "#fff2d0" },
-  "sky": { "clouds": 0.4, "cloud_speed": 0.01, "sun_glow": 0.6, "horizon_haze": 0.6 },
-  "fog": { "density": 0.0042, "sun_scatter": 0.2 },
-  "tonemap": { "mode": "filmic", "exposure": 1.0, "white": 5.5 },
-  "grade": { "brightness": 1.0, "contrast": 1.1, "saturation": 1.12 },
-  "glow": { "enabled": true, "intensity": 0.5, "bloom": 0.1, "threshold": 1.0 },
-  "materials": { "style": "toon", "steps": 3, "rim": 0.22, "outline": 0.0 },
-  "ui": { "accent": "#ffb627", "corner": 10 },
+  "sun": {
+    "pitch": -52,
+    "yaw": -30,
+    "energy": 1.25,
+    "shadow": true,
+    "color": "#fff2d0"
+  },
+  "sky": {
+    "clouds": 0.4,
+    "cloud_speed": 0.01,
+    "sun_glow": 0.6,
+    "horizon_haze": 0.6
+  },
+  "fog": {
+    "density": 0.0042,
+    "sun_scatter": 0.2
+  },
+  "tonemap": {
+    "mode": "filmic",
+    "exposure": 1,
+    "white": 5.5
+  },
+  "grade": {
+    "brightness": 1,
+    "contrast": 1.1,
+    "saturation": 1.12
+  },
+  "glow": {
+    "enabled": true,
+    "intensity": 0.5,
+    "bloom": 0.1,
+    "threshold": 1
+  },
+  "materials": {
+    "style": "toon",
+    "steps": 3,
+    "rim": 0.22,
+    "outline": 0
+  },
+  "ui": {
+    "accent": "#ffb627",
+    "corner": 10
+  },
   "ambient": {
-    "wind": 0.35, "clouds": true, "motes": 0.2, "leaves": 0.25, "water": false,
-    "birds": "pigeons", "bird_count": 8, "butterflies": 0, "fireflies": 0, "pigeons": 8, "critters": 3,
-    "glow_signs": 0.9, "blowing_paper": 6, "time_of_day": "day"
+    "wind": 0.35,
+    "clouds": true,
+    "motes": 0.2,
+    "leaves": 0.25,
+    "water": false,
+    "birds": "pigeons",
+    "bird_count": 8,
+    "butterflies": 0,
+    "fireflies": 0,
+    "pigeons": 8,
+    "critters": 3,
+    "glow_signs": 0.9,
+    "blowing_paper": 6,
+    "time_of_day": "day"
   },
-  "audio": { "beds": ["city", "wind"], "mood": "upbeat", "key": "G", "scale": "major", "bpm": 108, "instruments": ["electric_piano", "guitar", "bass", "light_drums"] },
+  "audio": {
+    "beds": [
+      "city",
+      "wind"
+    ],
+    "mood": "upbeat",
+    "key": "G",
+    "scale": "major",
+    "bpm": 108,
+    "instruments": [
+      "electric_piano",
+      "guitar",
+      "bass",
+      "light_drums"
+    ]
+  },
   "sound_palette": "scifi",
-  "shaders": ["toon", "rim", "wind_sway", "glow_pulse", "triplanar", "dissolve", "windows"]
+  "shaders": [
+    "toon",
+    "rim",
+    "wind_sway",
+    "glow_pulse",
+    "triplanar",
+    "dissolve",
+    "windows"
+  ],
+  "richness": "rich",
+  "rich": {
+    "note": "city: layered skyline silhouettes, pigeons, blowing paper",
+    "ground": {
+      "grass": true,
+      "patches": true,
+      "rocks": true,
+      "flowers": true,
+      "moss": true,
+      "wind_sway": true
+    },
+    "distance": {
+      "fog_tint": "sky",
+      "horizon_layers": 4,
+      "vignette": 0.3,
+      "aerial_perspective": true
+    },
+    "light_shafts": false,
+    "depth_of_field": "full_quality_only",
+    "lighting": {
+      "key": "sun",
+      "fill": "sky",
+      "rim": true,
+      "shadows": "soft",
+      "time_of_day": "day"
+    },
+    "color": {
+      "saturation": "boosted",
+      "bloom": "subtle"
+    }
+  },
+  "living": {
+    "tod": "day",
+    "biome": "city",
+    "level": "full",
+    "day": [
+      "pigeons",
+      "drifting_clouds",
+      "blowing_paper",
+      "insects"
+    ],
+    "dusk": [
+      "bats",
+      "pigeons",
+      "blowing_paper"
+    ],
+    "night": [
+      "stars",
+      "bats",
+      "blowing_paper"
+    ],
+    "weather": [
+      "rain",
+      "fog"
+    ],
+    "sounds": [
+      "wind",
+      "pigeons",
+      "insects_day"
+    ],
+    "baseline": "birds or insects by day, fireflies or stars by night, wind everywhere"
+  }
 }

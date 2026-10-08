@@ -76,9 +76,8 @@ func _build_karts() -> void:
 	cam.set_kart(player)
 
 func _build_systems() -> void:
-	amb = PNAmbient.new()
-	world.add_child(amb)
-	amb.build(player, Rect2(-220, -170, 440, 340), LEVEL["seed"])
+	# RICH + LIVING by default (the track is built ground, so no grass carpet; horizon, sky, life and sound are all on).
+	amb = PNRich.build(world, env_node, sun, player, Rect2(-220, -170, 440, 340), {"seed": LEVEL["seed"], "no_grass": true, "no_ground_detail": true}).ambient()
 	var all: Array = [player]
 	all.append_array(ais)
 	race = RaceManager.new()

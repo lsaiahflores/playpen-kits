@@ -146,10 +146,9 @@ func _build_player() -> void:
 	player.camera = cam
 
 func _build_systems() -> void:
-	amb = PNAmbient.new()
-	world.add_child(amb)
 	var b: Rect2 = city["bounds"]
-	amb.build(player, Rect2(b.position - Vector2(40, 40), b.size + Vector2(80, 80)), LEVEL["seed"])
+	# RICH + LIVING by default (PNRich also builds the ambient-life layer). A city has streets and buildings, so no grass carpet.
+	amb = PNRich.build(world, env_node, sun, player, Rect2(b.position - Vector2(40, 40), b.size + Vector2(80, 80)), {"seed": LEVEL["seed"], "no_grass": true, "no_ground_detail": true}).ambient()
 	collectibles = PNCollectibles.new()
 	add_child(collectibles)
 	for a in get_tree().get_nodes_in_group("collectible"):

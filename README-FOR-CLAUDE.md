@@ -66,3 +66,26 @@ Unknown genre? Start from the closest kit and add the missing mechanic on top of
   with `playpen-model figure --preset soldier --name hero --primary #...`. NEVER build a character from stacked boxes.
 - QA: `godot -- --autoplay` starts the match; `--overview` adds a high camera. Use `playpen-play`, LOOK at the PNGs.
 - Names in your plan, reports and in-game text must be ORIGINAL (heavy alien brawler, energy pistol) — never franchise names.
+
+## RICH + LIVING BY DEFAULT (read this; it is on unless the user's words say otherwise)
+
+Every project is **rich** unless the user asked for something simpler (pixel, 8-bit, flat colors, minimal, vector, low-poly, retro,
+clean/simple...). The design bible states the choice (`richness`: rich | stylized | flat) in the user's own terms. Rich means a real
+gradient sky with sun/moon glow, layered clouds and haze; textured ground with variation (instanced grass with wind sway, dirt/moss
+patches, rocks, flowers); sky-tinted fog, layered horizon silhouettes, a soft vignette; a sun + fill + ambient + rim lighting rig and a
+time of day; saturated graded color with subtle bloom; textured materials; rule-based scatter; wind, drifting clouds, motes.
+
+**You do not build this by hand.** The kit mains already call `PNRich.build(world, env_node, sun, player, area, {...})` right after
+`PNLook.apply(...)`. It reads the look pack (`rich`, `living`, `richness`) and `res://design-bible.json` and builds everything inside a
+tier BUDGET (`PNSettings` low/medium/high: instanced grass clumps 1500/4500/11000, creature caps 24/60/140, shadow distance, particle
+caps). Depth of field and light shafts run only in Play in full quality (Forward+); the Compatibility/web renderer gets fake depth
+(fog + haze + horizon layers). Do not add your own flat sky, bare ground plane, or silent world.
+
+**Living world.** A vague setting ("a world", "an island", "a kingdom", "a village") gets the FULL layer chosen from biome x time of day:
+by day birds, butterflies, bees, insects, small critters, fish ripples, distant flocks, drifting clouds, falling leaves, swaying grass; at
+dusk and night fireflies, bats, owls, crickets, stars with shooting stars, moonlight on water, mist; weather where it fits (rain, snow,
+petals, embers). Specific genres (arena shooter, racer, puzzle) get a lighter baseline. ALWAYS at least: birds or insects by day,
+fireflies or stars by night, wind everywhere. Each has a matching ambience bed (`birds_day`, `insects_day`, `crickets_night`, `owl_night`,
+`night_wind`, `rain`, `rustle`, `water`, `frogs_night`, `bees`, `bat_flutter`, `pigeons`, `crows`, `hawk_cry`, plus `wind`, `waves`,
+`gulls`) on the Ambience bus. Change the time of day with `rich.set_time_of_day("night")`; opts: `no_grass` / `no_ground_detail` for
+built ground (cities, arenas, tracks), `height_fn` (a Callable) when the ground is terrain, `time_of_day`, `weather: ["rain"]`.

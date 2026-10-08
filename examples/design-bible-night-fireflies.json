@@ -1,0 +1,29 @@
+{
+  "request": "a quiet night walk through a firefly forest",
+  "subjects": [{ "reference": "the night forest", "what": "a moonlit forest clearing with a pond and a lantern path", "how": "rich, lifelike, softly glowing", "feel": "hushed, magical" }],
+  "artStyle": "rich, lifelike night: deep blue shadows, warm lantern light, glowing fireflies, moonlit mist",
+  "lookPack": "dusk_night",
+  "builders": ["organic-base", "catalog-model", "procedural-prop"],
+  "characters": [
+    { "name": "Lantern Walker", "role": "the player carrying a lantern", "kind": "hero", "builder": "sculpted-toy", "base": "chunky-humanoid", "parts": ["helmet=visor_round", "backpack"], "silhouette": "small, hooded", "features": ["glowing lantern", "long coat", "boots"], "palette": { "primary": "#2c4a7a", "secondary": "#c9a063", "accent": "#ffd27a" }, "animations": ["idle", "walk", "run", "jump"] }
+  ],
+  "environment": { "kits": ["kenney/nature-kit", "quaternius/stylizednaturemegakit"], "terrain": "a forest clearing with a pond, a lantern-lit path, fallen logs and ferns", "sky": "deep indigo gradient, bright moon with glow, stars, thin layered clouds", "light": "cool moon key, blue sky fill, warm lantern point lights, soft shadows", "fog": "low blue mist hugging the pond and ground", "scatter": "ferns, mushrooms, logs, rocks, flowers; random size and rotation", "ambient": "full living-world layer, night" },
+  "camera": "third person, 4 m back, fov 65, gentle sway", "hud": "minimal: lantern oil bottom-left",
+  "ui": { "font": "kenney/kenney-fonts", "icons": "kenney/game-icons", "tokens": "dark glass panels, warm accent, 12px radius" },
+  "sound": { "palette": "toy_plastic", "sfxEvents": ["footstep", "jump", "land", "pickup", "ui_click", "lantern_swing"], "ambience": ["crickets_night", "owl_night", "night_wind", "water", "rustle", "bat_flutter"], "voiceLines": [] },
+  "music": { "genre": "calm night ambient", "key": "A", "scale": "minor", "bpm": 72, "sections": ["intro", "loop", "variation"], "instruments": ["pads", "piano", "harp"], "states": { "explore": "sparse piano and pads", "danger": "low pads", "boss": "" } },
+  "richness": "rich",
+  "richnessWhy": "rich and lifelike (the default; you did not ask for a simpler style)",
+  "livingWorld": {
+    "level": "full", "biome": "forest", "timeOfDay": "night",
+    "byTime": {
+      "day": ["songbirds", "butterflies", "insects", "swaying_grass", "drifting_clouds"],
+      "dusk": ["bats", "fireflies", "moths", "swaying_grass"],
+      "night": ["fireflies", "owls", "bats", "stars", "shooting_stars", "mist", "moonlit_water"]
+    },
+    "weather": ["fog", "falling_leaves"],
+    "sounds": ["crickets_night", "owl_night", "night_wind", "water", "rustle", "bat_flutter"]
+  },
+  "manifest": [{ "name": "lantern_walker", "type": "character", "ref": "sculpted-toy:chunky-humanoid" }],
+  "credits": ["kenney/nature-kit"]
+}

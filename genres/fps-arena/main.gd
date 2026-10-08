@@ -185,9 +185,8 @@ func _build_match() -> void:
 	match_mgr.fighter_respawned.connect(func(f): if f == player: hud.toast("Fight!", 0.8))
 	PNAudio.play_beds(PNLook.look.get("audio", {}).get("beds", []))
 	PNAudio.play_track(LEVEL["music_track"])
-	var amb := PNAmbient.new()
-	world.add_child(amb)
-	amb.build(player, Rect2(-90, -90, 180, 180), LEVEL["seed"])
+	# RICH + LIVING by default (an arena has built floors, so no grass carpet).
+	PNRich.build(world, env_node, sun, player, Rect2(-90, -90, 180, 180), {"seed": LEVEL["seed"], "no_grass": true, "no_ground_detail": true})
 	# position everyone on their pads until the match starts
 	for f in match_mgr.fighters():
 		(f as PNFighter).global_position = match_mgr.spawn_point_for(f)

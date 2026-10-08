@@ -3,27 +3,187 @@
   "name": "Lush Forest",
   "blurb": "Deep greens and dappled light: butterflies, fireflies at the edges, falling leaves, light shafts.",
   "palette": {
-    "primary": "#f5c84c", "secondary": "#5fb878", "accent": "#e07a5f",
-    "street": "#5a5648", "sidewalk": "#a39d84",
-    "ground": "#6b5a3e", "foliage": "#3c9a4a", "foliage_dark": "#1f6b3a", "water": "#3aa6a0", "water_deep": "#14605f",
-    "sky_top": "#4a8fcf", "sky_horizon": "#cfe8d8", "ground_horizon": "#b5d3b0",
-    "sun": "#ffe9a8", "fog": "#bfdcc6", "shadow": "#2c4a5a", "building": "#8a6f55", "roof": "#5a7a3a",
-    "ui_bg": "#14301f", "ui_fg": "#f4fff0"
+    "primary": "#f5c84c",
+    "secondary": "#5fb878",
+    "accent": "#e07a5f",
+    "street": "#5a5648",
+    "sidewalk": "#a39d84",
+    "ground": "#6b5a3e",
+    "foliage": "#3c9a4a",
+    "foliage_dark": "#1f6b3a",
+    "water": "#3aa6a0",
+    "water_deep": "#14605f",
+    "sky_top": "#4a8fcf",
+    "sky_horizon": "#cfe8d8",
+    "ground_horizon": "#b5d3b0",
+    "sun": "#ffe9a8",
+    "fog": "#bfdcc6",
+    "shadow": "#2c4a5a",
+    "building": "#8a6f55",
+    "roof": "#5a7a3a",
+    "ui_bg": "#14301f",
+    "ui_fg": "#f4fff0"
   },
-  "sun": { "pitch": -40, "yaw": -50, "energy": 1.15, "shadow": true, "color": "#ffe9a8" },
-  "sky": { "clouds": 0.35, "cloud_speed": 0.008, "sun_glow": 0.7, "horizon_haze": 0.7 },
-  "fog": { "density": 0.009, "sun_scatter": 0.4 },
-  "tonemap": { "mode": "filmic", "exposure": 0.95, "white": 6.0 },
-  "grade": { "brightness": 0.98, "contrast": 1.1, "saturation": 1.15 },
-  "glow": { "enabled": true, "intensity": 0.6, "bloom": 0.12, "threshold": 0.95 },
-  "materials": { "style": "toon", "steps": 4, "rim": 0.3, "outline": 0.0 },
-  "ui": { "accent": "#f5c84c", "corner": 12 },
+  "sun": {
+    "pitch": -40,
+    "yaw": -50,
+    "energy": 1.15,
+    "shadow": true,
+    "color": "#ffe9a8"
+  },
+  "sky": {
+    "clouds": 0.35,
+    "cloud_speed": 0.008,
+    "sun_glow": 0.7,
+    "horizon_haze": 0.7
+  },
+  "fog": {
+    "density": 0.009,
+    "sun_scatter": 0.4
+  },
+  "tonemap": {
+    "mode": "filmic",
+    "exposure": 0.95,
+    "white": 6
+  },
+  "grade": {
+    "brightness": 0.98,
+    "contrast": 1.1,
+    "saturation": 1.15
+  },
+  "glow": {
+    "enabled": true,
+    "intensity": 0.6,
+    "bloom": 0.12,
+    "threshold": 0.95
+  },
+  "materials": {
+    "style": "toon",
+    "steps": 4,
+    "rim": 0.3,
+    "outline": 0
+  },
+  "ui": {
+    "accent": "#f5c84c",
+    "corner": 12
+  },
   "ambient": {
-    "wind": 0.5, "clouds": true, "motes": 0.7, "leaves": 0.8, "water": true, "light_shafts": true,
-    "birds": "songbirds", "bird_count": 6, "butterflies": 12, "fireflies": 14, "pigeons": 0, "critters": 6,
-    "glow_signs": 0.0, "time_of_day": "golden"
+    "wind": 0.5,
+    "clouds": true,
+    "motes": 0.7,
+    "leaves": 0.8,
+    "water": true,
+    "light_shafts": true,
+    "birds": "songbirds",
+    "bird_count": 6,
+    "butterflies": 12,
+    "fireflies": 14,
+    "pigeons": 0,
+    "critters": 6,
+    "glow_signs": 0,
+    "time_of_day": "golden"
   },
-  "audio": { "beds": ["forest", "wind"], "mood": "calm", "key": "D", "scale": "dorian", "bpm": 92, "instruments": ["flute", "harp", "strings", "bass", "soft_drums"] },
+  "audio": {
+    "beds": [
+      "forest",
+      "wind"
+    ],
+    "mood": "calm",
+    "key": "D",
+    "scale": "dorian",
+    "bpm": 92,
+    "instruments": [
+      "flute",
+      "harp",
+      "strings",
+      "bass",
+      "soft_drums"
+    ]
+  },
   "sound_palette": "toy_plastic",
-  "shaders": ["toon", "rim", "water", "wind_sway", "glow_pulse", "triplanar", "dissolve"]
+  "shaders": [
+    "toon",
+    "rim",
+    "water",
+    "wind_sway",
+    "glow_pulse",
+    "triplanar",
+    "dissolve"
+  ],
+  "richness": "rich",
+  "rich": {
+    "note": "forest: light shafts, falling leaves, fireflies at golden hour",
+    "ground": {
+      "grass": true,
+      "patches": true,
+      "rocks": true,
+      "flowers": true,
+      "moss": true,
+      "wind_sway": true
+    },
+    "distance": {
+      "fog_tint": "sky",
+      "horizon_layers": 3,
+      "vignette": 0.3,
+      "aerial_perspective": true
+    },
+    "light_shafts": true,
+    "depth_of_field": "full_quality_only",
+    "lighting": {
+      "key": "sun",
+      "fill": "sky",
+      "rim": true,
+      "shadows": "soft",
+      "time_of_day": "dusk"
+    },
+    "color": {
+      "saturation": "boosted",
+      "bloom": "subtle"
+    }
+  },
+  "living": {
+    "tod": "dusk",
+    "biome": "forest",
+    "level": "full",
+    "day": [
+      "songbirds",
+      "butterflies",
+      "bees",
+      "dragonflies",
+      "small_critters",
+      "falling_leaves",
+      "drifting_clouds",
+      "swaying_grass",
+      "distant_bird_flocks"
+    ],
+    "dusk": [
+      "bats",
+      "fireflies",
+      "moths",
+      "falling_leaves",
+      "swaying_grass"
+    ],
+    "night": [
+      "fireflies",
+      "owls",
+      "bats",
+      "stars",
+      "shooting_stars",
+      "mist",
+      "moonlit_water"
+    ],
+    "weather": [
+      "rain",
+      "fog",
+      "falling_leaves"
+    ],
+    "sounds": [
+      "wind",
+      "birds_day",
+      "bees",
+      "insects_day",
+      "rustle"
+    ],
+    "baseline": "birds or insects by day, fireflies or stars by night, wind everywhere"
+  }
 }
